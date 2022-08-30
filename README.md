@@ -3,7 +3,7 @@ Building a file utility without any functions available in <stdio.h>. This means
 
 In order to increase the difficulty of the task, the system() library function, and any library functions which spawns new process(s) from the program. This allows us to interact with services of the operating system directly. 
 
-Summary of all command-linee arguments and their functionalities: <br />
+Summary of all command-line arguments and their functionalities: <br />
 Sourcefile  <br />
 Allows user to input a path for the sourcefilee to diplay/copy. Sourcefile must appear immediateely after the command (e.g. ./filetil sourcefile) <br />
 -a destfile <br />
@@ -41,5 +41,4 @@ append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a n
 
 $ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15 <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it.
-
 
