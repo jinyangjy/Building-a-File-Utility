@@ -6,34 +6,34 @@ In order to increase the difficulty of the task, the system() library function, 
 
 Example Commands
 
-$ ./fileutil
+$ ./fileutil <br />
 Displays the first 10 words of the sample.txt file from the current directory /n
 
-$ ./fileutil -n 20
+$ ./fileutil -n 20 <br />
 Displays the first 20 words of the sample.txt file from the current directory
 
-$ ./fileutil /home/student/dir1/a.txt
+$ ./fileutil /home/student/dir1/a.txt <br />
 Displays the first 10 words of the a.txt file
 
-$ ./fileutil /home/student/dir1/a.txt -n 20
+$ ./fileutil /home/student/dir1/a.txt -n 20 <br />
 Displays the first 20 words of the a.txt file
 
-$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt
+$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt <br />
 append first 10 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 10 words of the a.txt should be copied to it. 
 
-$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15
+$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15 <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it. 
 
-$ ./fileutil -a /home/student/dir2/b.txt
+$ ./fileutil -a /home/student/dir2/b.txt <br />
 Append the first 10 lines of sample.txt from the current directory to b.txt
  
-$ ./fileutil /home/student/dir1/a.txt -n
+$ ./fileutil /home/student/dir1/a.txt -n <br />
 Invalid argument, no line numbers specified after the -n argument!
 
-$ ./fileutil /home/student/dir1/a.txt -n 15 -a /home/student/dir2/b.txt
+$ ./fileutil /home/student/dir1/a.txt -n 15 -a /home/student/dir2/b.txt <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it.
 
-$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15
+$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15 <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it.
 
 
