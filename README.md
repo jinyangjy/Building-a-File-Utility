@@ -1,7 +1,7 @@
 # Building a File Utility
 Building a file utility without any functions available in <stdio.h>. This means, the use of printf() to produce output will be restricted. For example, to print output in the terminal,  I've wrote to standard output directly, by using appropriate file system calls. 
 
-In order to increase the difficulty of the task, the system() library function, and any library functions which spawns new process(s) from the program. This allows us to interact with services of the operating system directly. 
+In order to increase the difficulty of the task, the system() library function is restricted, and any library functions which spawns new process(s) from the program is not allowed as well. This allows us to interact with services of the operating system directly. 
 
 Summary of all command-line arguments and their functionalities: <br />
 Sourcefile  <br />
