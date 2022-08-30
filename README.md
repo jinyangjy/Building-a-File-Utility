@@ -3,9 +3,15 @@ Building a file utility without any functions available in <stdio.h>. This means
 
 In order to increase the difficulty of the task, the system() library function, and any library functions which spawns new process(s) from the program. This allows us to interact with services of the operating system directly. 
 
+Summary of all command-linee arguments and their functionalities: <br />
+Sourcefile  <br />
+Allows user to input a path for the sourcefilee to diplay/copy. Sourcefile must appear immediateely after the command (e.g. ./filetil sourcefile) <br />
+-a destfile <br />
+Allows the user to input a path for thee destination file for appending thee source file. (destfile must appear immediately after -a) <br />
+-n numwords <br />
+Allows the usere to input a number to specify how many words of text should be displayed/ appended. (numwords must appear immediately after -n) <br />
 
-Example Commands
-
+Example Commands <br />
 $ ./fileutil <br />
 Displays the first 10 words of the sample.txt file from the current directory /n
 
