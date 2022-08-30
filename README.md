@@ -12,33 +12,33 @@ Allows the user to input a path for thee destination file for appending thee sou
 Allows the usere to input a number to specify how many words of text should be displayed/ appended. (numwords must appear immediately after -n) <br />
 
 Example Commands <br />
-$ ./fileutil <br />
+$ ./file_util <br />
 Displays the first 10 words of the sample.txt file from the current directory /n
 
-$ ./fileutil -n 20 <br />
+$ ./file_util -n 20 <br />
 Displays the first 20 words of the sample.txt file from the current directory
 
-$ ./fileutil /home/student/dir1/a.txt <br />
+$ ./file_util /home/student/dir1/sample2.txt <br />
 Displays the first 10 words of the a.txt file
 
-$ ./fileutil /home/student/dir1/a.txt -n 20 <br />
+$ ./file_util /home/student/dir1/sample2.txt -n 20 <br />
 Displays the first 20 words of the a.txt file
 
-$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt <br />
+$ ./file_util /home/student/dir1/sample2.txt -a /home/student/dir2/sample3.txt <br />
 append first 10 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 10 words of the a.txt should be copied to it. 
 
-$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15 <br />
+$ ./file_util /home/student/dir1/sample2.txt -a /home/student/dir2/sample3.txt -n 15 <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it. 
 
-$ ./fileutil -a /home/student/dir2/b.txt <br />
+$ ./file_util -a /home/student/dir2/sample3.txt <br />
 Append the first 10 lines of sample.txt from the current directory to b.txt
  
-$ ./fileutil /home/student/dir1/a.txt -n <br />
+$ ./file_util /home/student/dir1/sample2.txt -n <br />
 Invalid argument, no line numbers specified after the -n argument!
 
-$ ./fileutil /home/student/dir1/a.txt -n 15 -a /home/student/dir2/b.txt <br />
+$ ./file_util /home/student/dir1/sample2.txt -n 15 -a /home/student/dir2/sample3.txt <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it.
 
-$ ./fileutil /home/student/dir1/a.txt -a /home/student/dir2/b.txt -n 15 <br />
+$ ./file_util /home/student/dir1/sample2.txt -a /home/student/dir2/sample3.txt -n 15 <br />
 append first 15 words in a.txt to the end of b.txt. If b.txt does not exist, a new b.txt should be created and first 15 words of the a.txt should be copied to it.
 
